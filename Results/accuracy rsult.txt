@@ -1,0 +1,62 @@
+Model: MobileNetV2 (Feature Extractor)
+Accuracy: 0.8809815950920246
+Confusion Matrix:
+ [[605  31   0]
+ [ 47 111   0]
+ [ 12   7   2]]
+Precision: 0.8812179752071241
+Recall: 0.8809815950920246
+F1 Score: 0.8710128544092172
+
+Model: MobileNetV2 (Fine-tuned)
+Accuracy: 0.8785276073619632
+Confusion Matrix:
+ [[622  14   0]
+ [ 64  94   0]
+ [ 15   6   0]]
+Precision: 0.8522772409788376
+Recall: 0.8785276073619632
+F1 Score: 0.8600816448379371
+
+Model: ResNet50 (Feature Extractor)
+Accuracy: 0.7803680981595092
+Confusion Matrix:
+ [[636   0   0]
+ [158   0   0]
+ [ 21   0   0]]
+Precision: 0.6089743686250895
+Recall: 0.7803680981595092
+F1 Score: 0.6840993941136427
+
+Model: ResNet50 (Fine-tuned)
+Accuracy: 0.845398773006135
+Confusion Matrix:
+ [[635   1   0]
+ [101  51   6]
+ [ 14   4   3]]
+Precision: 0.8458562664329535
+Recall: 0.845398773006135
+F1 Score: 0.812612238019038
+
+Model: EfficientNetB0 (Feature Extractor)
+Accuracy: 0.7803680981595092
+Confusion Matrix:
+ [[636   0   0]
+ [158   0   0]
+ [ 21   0   0]]
+Precision: 0.6089743686250895
+Recall: 0.7803680981595092
+F1 Score: 0.6840993941136427
+
+Model: EfficientNetB0 (Fine-tuned)
+Accuracy: 0.7803680981595092
+Confusion Matrix:
+ [[636   0   0]
+ [158   0   0]
+ [ 21   0   0]]
+Precision: 0.6089743686250895
+Recall: 0.7803680981595092
+F1 Score: 0.6840993941136427
+libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+
+Process finished with exit code 0
